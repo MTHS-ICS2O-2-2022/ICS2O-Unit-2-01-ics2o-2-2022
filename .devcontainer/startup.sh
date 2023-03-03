@@ -41,5 +41,6 @@ sudo pip3 install cpplint
 # binary will be $(go env GOPATH)/bin/golangci-lint
 curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b "$(go env GOPATH)/bin"
 
+# https://www.shellcheck.net/wiki/SC1090
 # shellcheck source=/dev/null
 source ~/.bashrc
